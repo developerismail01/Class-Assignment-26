@@ -1,0 +1,133 @@
+.mid-container{
+    width: 1200px;
+    margin: auto;
+}
+.clear::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.text-center{
+    text-align: center;
+}
+img{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+/* header-section */
+.header-section{
+    padding: 15px 0;
+}
+.logo{
+    width: 30%;
+}
+.logo h1{
+    margin: 0;
+    color: blue;
+}
+.menu{
+    width: 70%;
+}
+.menu ul {
+	text-align: right;
+	margin: 0;
+}
+.menu ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+.menu ul li a {
+	display: inline-block;
+	color: #000;
+	line-height: 44px;
+	font-size: 20px;
+    transition: .5s;
+}
+.menu ul li a:hover{
+    color: #555;
+}
+/* banner-section */
+.banner-section{
+    padding: 100px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-blend-mode: multiply;
+    background-image:url(./img/157264091_232546085207675_2351110429777586423_n.jpg), linear-gradient( to left, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)) ;
+}
+.banner-content h3 {
+	color: #fff;
+	font-size: 30px;
+	font-weight: 400;
+}
+.banner-content h1 {
+	font-size: 75px;
+	color: #fff;
+	margin: 20px 0;
+}
+.banner-btn a{
+    display: inline-block;
+    color: #fff;
+    background-color: #4272d7;
+    padding: 10px 30px;
+}
+/* about-section */
+.about-section{
+    padding: 70px 0;
+}
+.left-video{
+    width: 50%;
+    margin-right: 20px;
+}
+.right-text{
+    width: 45%;
+}
+.text-12 h4 {
+	font-size: 24px;
+	margin: 5px 0;
+}
+.text-12 p {
+	font-size: 20px;
+}
+/* contact-section */
+.contact-section{
+    padding: 70px 0;
+    background: #f5f5f5;
+}
+.contact-section h2{
+    padding: 10px 0;
+    font-size: 50px;
+}
+.left-contact{
+    width: 45%;
+}
+.right-contact{
+    width: 50%;
+}
+.contact-input{
+    
+}
+.my-input {
+	display: block;
+	width: 100%;
+	margin: 20px 0;
+	padding: 10px 30px;
+	box-sizing: border-box;
+}
+/* footer-section */
+.footer-section{
+    background-color: #171a21;
+    padding: 20px 0;
+}
+.footer-text p{
+    color: #fff;
+    font-size: 20px;
+}
